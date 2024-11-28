@@ -1,7 +1,7 @@
 package com.example.modul7
 
 
-class HoneworkAdapter (private val onItemClickCallback: OnItemClickCallback):
+class HomeworkAdapter (private val onItemClickCallback: OnItemClickCallback):
     RecyclerView.Adapter<HomeworkAdapter.HomeworkViewHolder>() {
     var listHomework = ArrayList<Homework>()
         set(listHomework) {
