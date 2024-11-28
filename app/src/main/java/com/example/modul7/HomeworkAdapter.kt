@@ -55,7 +55,7 @@ class HomeworkAdapter(private val onItemClickCallback: OnItemClickCallback) :
         fun bind(homework: Homework) {
             binding.tvItemTitle.text = homework.title
             binding.tvItemDate.text = homework.date
-            binding.tvItemDescription.text = homework.description
+            binding.tvItemDesription.text = homework.description
             binding.cvItemHomework.setOnClickListener {
                 onItemClickCallback.onItemClicked(homework, adapterPosition)
             }
