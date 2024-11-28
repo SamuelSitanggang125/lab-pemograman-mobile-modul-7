@@ -39,9 +39,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/texInputLayout"
-        app:layout_constraintStart_toStartOf="@+id/texInputLayout"
-        app:layout_constraintTop_toBottomOf="@+id/texInputLayout">
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
         <EditText
             android:id="@+id/edt_description"
@@ -58,9 +58,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/submit"
-        app:layout_constraintEnd_toEndOf="@+id/texInputLayout2"
-        app:layout_constraintStart_toStartOf="@+id/texInputLayout2"
-        app:layout_constraintTop_toBottomOf="@+id/texInputLayout2"/>
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout2"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
