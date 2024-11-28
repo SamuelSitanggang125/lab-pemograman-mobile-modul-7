@@ -26,7 +26,7 @@ class HomeworkHelper (context: Context) {
 
     @Throws(SQLException::class)
     fun open() {
-        database - databaseHelper.writableDatabase
+        database = databaseHelper.writableDatabase
     }
 
     fun close() {
